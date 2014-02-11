@@ -82,3 +82,11 @@ border-radius: 8px 8px 0px 0px;
 .hov:hover {
   background-color: grey ;
 }
+.point{
+	font-size: 18px;
+	margin-top: 9pt;
+	margin-bottom: 9pt;
+}
+.head{
+	font-size: 20px;
+}

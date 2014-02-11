@@ -10,10 +10,10 @@ Ext.onReady(function () {
 
         items: [{
             title: 'Community Service',
-            html: "<center><h1>Community Service</h1></br>Located just outside of Georgia Southern</center>",
+            html: "<center><h1 class='head'>Community Service</h1></br><div class='proj'></br><ul class='point'><b>Location</b><li>Georgia Southern Rotunda</li></ul></div><div class='proj'></br><ul class='point'><b>Time</b><li>5:00pm - 6:00pm</li></ul></div></center>",
         }, {
             title: 'Internship Orientation',
-            html: "<center><h1>Internship Orientation</h1></br>Located at Hacker's</center>",
+            html: "<center><h1 class='head'>Community Service</h1></br><div class='proj'></br><ul class='point'><b>Location</b><li>Henderson Library</li></ul></div><div class='proj'></br><ul class='point'><b>Time</b><li>4:00pm - 6:00pm</li></ul></div></center>",
            }],
         renderTo: Ext.getBody()
     });
